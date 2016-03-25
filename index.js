@@ -702,5 +702,18 @@ $(function(){
 		n=1;
 		}
 	});	
+	$(window).scroll(function(){ 
+		if ($(window).scrollTop()>20){ 
+		$("#back-to-top").fadeIn(500); 
+		} 
+		else 
+		{ 
+		$("#back-to-top").fadeOut(500); 
+		} 
+		}); 
+	$("#back-to-top").click(function(){ 
+		$('body,html').animate({scrollTop:0},300); 
+		return false; 
+		}); 
 });
 
