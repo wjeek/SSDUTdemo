@@ -1,0 +1,160 @@
+@CHARSET "UTF-8";
+
+body{
+padding:0px;
+margin:0px;
+background-image:url(../images/bg.jpg);
+font-family: '宋体','SimHei','微软雅黑','黑体',Tahoma, Helvetica, Arial, sans-serif;
+}
+.contain{
+width:800px;
+height:600px;
+align:center;
+background-repeat:no-repeat;
+background-size:cover;
+margin:0 auto;
+color:
+}
+.head{
+width:800px;
+height:90px;
+z-index:10;
+background:#ff0080;
+opacity:0.5;
+font-weight:bolder;
+list-style:none;
+font-size:16px;
+color:#FFFFFF;
+float:left;
+}
+#title{
+background-image:url(../images/title.png);
+width:200px;
+height:50px;
+list-style:none;
+opacity:1;
+}
+.header{
+width:100px;
+padding-top:0px;
+border-style:none;
+height:20px;
+float:left;
+list-style:none;
+text-align:center;
+z-index:10;
+}
+.header ul{
+background-color:#333333;
+border-radius:5px;
+width:90px;
+padding-left:6px;
+list-style:none;
+text-align:center;
+display:none;
+color:#666666;
+font-size:14px;
+z-index:0;
+}
+.header a{
+text-decoration:none;
+color:#FFFFFF;
+}
+.header a:hover{
+text-decoration:none;
+color:#FFD5AA;
+}
+#news {
+	position:absolute;
+	top:380px;
+	width:400px;
+	height:200px;
+	z-index:15;
+	opacity:0.5;
+	border-radius:3px;
+}
+.newstab{
+	color:#999999;
+	font-weight:bolder;
+	opacity:1;
+	float:left;
+	margin-right:10px;
+	list-style:none;
+}
+#n1{
+	color:#FFFFFF;
+}
+.newslist{
+	margin-top:0px;
+	opacity:1;
+	float:left;
+	color:#FFFFFF;
+	font-size:14px;
+	text-decoration:none;
+}
+.newslist li{
+	padding-bottom:5px;
+}
+.newslist li a{
+	color:#FFFFFF;
+}
+.navbut{
+height:35px;
+width:800px;
+margin:0 auto;
+z-index:15;
+background-color:#333333;
+opacity:0.8;
+}
+.foot{
+width:800px;
+height:100px;
+margin:0px auto;
+background: #333333;
+display:block;
+opacity: 0.8;
+z-index:10;
+margin-top:-16px;
+}
+.foot ul li{
+	float:left;
+	padding-left:80px;
+	list-style:none;
+	color:#FFFFFF;
+	
+}
+.cor{
+width:800px;
+height:60px;
+margin:0px auto;
+background-color:#d5d5d5;
+opacity:0.8;
+text-align:center;
+}
+/*
+  下面为bgstretcher插件的css文件，可实现对ie7以上版本,Chrome,Firefox,Safari的支持
+
+
+*/
+HTML {_background: url(/images/trans.gif) no-repeat fixed;}
+.bgstretcher-area { text-align: left; }
+.bgstretcher, .bgstretcher UL, .bgstretcher UL LI {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bgstretcher UL, .bgstretcher UL LI {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.bgstretcher {
+	background: black;
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	_position: absolute; IE6 doesn't support fixed positioning
+	top: 0;
+	left: 0;
+}
